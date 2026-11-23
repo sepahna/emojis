@@ -3,23 +3,83 @@
 <style>
 :root{--bg:#080e1b;--panel:#111c30;--line:#2b405d;--text:#eff6ff;--muted:#9db0cc}
 *{box-sizing:border-box}body{margin:0;color:var(--text);font-family:Tahoma,Arial,sans-serif;background:radial-gradient(ellipse at top,#1b3154 0,transparent 58%),var(--bg)}
-.wrap{max-width:1240px;margin:auto;padding:30px 18px}header{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}h1{margin:0;font-size:clamp(25px,4vw,40px)}p{color:var(--muted);line-height:1.8}.pill{border:1px solid #32628d;background:#143452;padding:11px 15px;border-radius:14px}
+.wrap{max-width:1240px;margin:auto;padding:30px 18px}header{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}h1{margin:0;font-size:clamp(25px,4vw,40px)}p{color:var(--muted);line-height:1.9}.pill{border:1px solid #32628d;background:#143452;padding:11px 15px;border-radius:14px}
 .controls{display:grid;grid-template-columns:minmax(180px,1fr) 180px 180px;gap:10px;margin:24px 0}input,select{width:100%;padding:13px;border-radius:12px;border:1px solid var(--line);background:#101a2b;color:white;font-size:14px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}.card{background:#121b2d;border:1px solid var(--line);border-radius:16px;padding:12px}.preview{height:132px;background:#17243b;border-radius:12px;overflow:hidden;display:grid;place-items:center}.preview svg{width:100%;height:100%}
 .tag{display:inline-block;margin-top:8px;background:#1b3553;border:1px solid #2c5278;border-radius:20px;padding:4px 9px;font-size:11px;color:#b9d9f8}.name{direction:ltr;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:10px 0;font-size:12px}
 .actions{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.btn{background:#1e3857;color:#e2f3ff;border:1px solid #355273;border-radius:9px;padding:8px 5px;cursor:pointer;font-size:11px;text-decoration:none;text-align:center}.btn:hover{background:#285078}.empty{text-align:center;padding:40px;color:var(--muted);display:none}
-details{margin-top:26px;border:1px solid var(--line);background:#121a2d;border-radius:14px;padding:16px}summary{cursor:pointer;font-weight:bold}pre{direction:ltr;text-align:left;white-space:pre-wrap;overflow:auto;background:#080e19;padding:12px;border-radius:10px}footer{text-align:center;color:#8294af;padding:28px;font-size:12px}
+.pagination{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;margin:22px 0}.pagination button{background:#1e3857;color:#e2f3ff;border:1px solid #355273;border-radius:9px;padding:9px 14px;cursor:pointer}.pagination button:disabled{opacity:.4;cursor:not-allowed}.page-info{color:var(--muted);font-size:13px;padding:6px 10px}
+details{margin-top:26px;border:1px solid var(--line);background:#121a2d;border-radius:14px;padding:16px}summary{cursor:pointer;font-weight:bold}pre{direction:ltr;text-align:left;white-space:pre-wrap;overflow:auto;background:#080e19;padding:12px;border-radius:10px}code{direction:ltr}footer{text-align:center;color:#8294af;padding:28px;font-size:12px}
 @media(max-width:650px){.controls{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.wrap{padding:22px 12px}.preview{height:115px}.actions{grid-template-columns:1fr 1fr}.actions .copy{grid-column:span 2}}
-</style></head><body><main class="wrap"><header><div><h1>کتابخانه ایموجی متحرک تلگرام</h1><p>جستجو، پیش‌نمایش، دسته‌بندی و دانلود فایل‌های Lottie</p></div><div class="pill"><b id="total">…</b> ایموجی</div></header>
+</style></head><body><main class="wrap"><header><div><h1>کتابخانه ایموجی متحرک تلگرام</h1><p>جستجو، پیش‌نمایش، دسته‌بندی و دانلود فایل‌های Lottie</p></div><div class="pill"><b id="total">…</b> ایموجی · <b id="shown">0</b> نمایش</div></header>
 <div class="controls"><input id="search" placeholder="🔎 جستجو بر اساس نام فایل…"><select id="group"><option value="all">همه مجموعه‌ها</option></select><select id="sort"><option value="default">ترتیب پیش‌فرض</option><option value="az">نام فایل (الف تا ی)</option><option value="za">نام فایل (ی تا الف)</option></select></div>
-<section id="grid" class="grid"></section><div id="empty" class="empty">نتیجه‌ای پیدا نشد.</div>
-<details><summary>راهنمای استفاده در پروژه</summary><p>فایل JSON را داخل پوشه assets نگه دارید و با Lottie اجرا کنید:</p><pre>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"&gt;&lt;/script&gt;
-&lt;div id="emoji" style="width:64px;height:64px"&gt;&lt;/div&gt;
-&lt;script&gt;lottie.loadAnimation({container:document.getElementById('emoji'),renderer:'svg',loop:true,autoplay:true,path:'./assets/Proxy_PJ2_140.json'});&lt;/script&gt;</pre></details><footer>Telegram Emoji Library · Lottie JSON · GitHub Pages</footer></main>
+<nav class="pagination" id="paginationTop"></nav><section id="grid" class="grid"></section><div id="empty" class="empty">نتیجه‌ای پیدا نشد.</div><nav class="pagination" id="paginationBottom"></nav>
+<details><summary>راهنمای کامل استفاده از ایموجی‌ها و کد Python</summary>
+<h3>۱) دانلود فایل</h3><p>روی «دانلود» هر کارت کلیک کن تا فایل JSON ذخیره شود. «JSON» فایل را در تب جدید باز می‌کند و «کپی مسیر» مسیر نسبی فایل را در کلیپ‌بورد کپی می‌کند. از جستجو، فیلتر مجموعه و مرتب‌سازی استفاده کن. در هر صفحه حداکثر ۲۰ ایموجی ساخته و انیمیشن می‌شود تا از لگ و مصرف زیاد RAM جلوگیری شود.</p>
+<h3>۲) استفاده در وب با Lottie</h3><p>کتابخانه Lottie Web را اضافه کن، یک عنصر ظرف بساز و مسیر JSON را به آن بده:</p><pre><code>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"&gt;&lt;/script&gt;
+&lt;div id="emoji" style="width:100px;height:100px"&gt;&lt;/div&gt;
+&lt;script&gt;
+lottie.loadAnimation({
+  container: document.getElementById('emoji'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: './assets/Proxy_PJ2_140.json'
+});
+&lt;/script&gt;</code></pre>
+<h3>۳) خواندن و ذخیره JSON با Python</h3><p>این نمونه یک فایل JSON را از کتابخانه دانلود می‌کند و به‌عنوان فایل محلی ذخیره می‌کند. Python 3 و پکیج requests لازم است (نصب: <code>python -m pip install requests</code>):</p><pre><code>import requests
+import json
+
+url = "https://sepahna.github.io/emojis/assets/Proxy_PJ2_140.json"
+
+response = requests.get(url, timeout=30)
+response.raise_for_status()
+
+animation = response.json()  # تبدیل JSON به dict پایتون
+
+with open("emoji.json", "w", encoding="utf-8") as file:
+    json.dump(animation, file, ensure_ascii=False, indent=2)
+
+print("دانلود و ذخیره شد:", animation.get("nm", "Lottie animation"))</code></pre>
+<h3>۴) تبدیل فایل TGS تلگرام به JSON با Python</h3><p>فایل TGS معمولاً JSON فشرده‌شده با GZIP است. این کد فایل TGS را باز کرده و JSON قابل استفاده را ذخیره می‌کند:</p><pre><code>import gzip
+import json
+
+with open("sticker.tgs", "rb") as file:
+    compressed = file.read()
+
+data = gzip.decompress(compressed)
+animation = json.loads(data.decode("utf-8"))
+
+with open("sticker.json", "w", encoding="utf-8") as file:
+    json.dump(animation, file, ensure_ascii=False, indent=2)
+
+print("TGS به JSON تبدیل شد.")</code></pre>
+<h3>۵) دانلود گروهی چند ایموجی با Python</h3><p>اسم فایل‌ها را در لیست بگذار؛ اسکریپت آن‌ها را در پوشه <code>emojis</code> دانلود می‌کند:</p><pre><code>from pathlib import Path
+import requests
+
+FILES = [
+    "Proxy_PJ2_140.json",
+    "Proxy_PJ7_067.json",
+    "ApplicationEmoji_Meh​ran_001.json",
+]
+
+base = "https://sepahna.github.io/emojis/assets/"
+out = Path("emojis")
+out.mkdir(exist_ok=True)
+
+for name in FILES:
+    response = requests.get(base + name, timeout=30)
+    response.raise_for_status()
+    (out / name).write_bytes(response.content)
+    print("Downloaded:", name)</code></pre>
+<p>نکته: نام فایل باید دقیقاً مطابق نام موجود در کتابخانه باشد. فایل‌های JSON این سایت Lottie هستند؛ برای نمایش در وب از Lottie Web استفاده کن.</p>
+</details><footer>Telegram Emoji Library · Lottie JSON · GitHub Pages</footer></main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script><script>
-const grid=document.querySelector('#grid'),search=document.querySelector('#search'),group=document.querySelector('#group'),sort=document.querySelector('#sort'),empty=document.querySelector('#empty');let files=[];
+const PAGE_SIZE=20;
+const grid=document.querySelector('#grid'),search=document.querySelector('#search'),group=document.querySelector('#group'),sort=document.querySelector('#sort'),empty=document.querySelector('#empty'),topNav=document.querySelector('#paginationTop'),bottomNav=document.querySelector('#paginationBottom');let files=[],page=1;
 fetch('assets/manifest.json').then(r=>{if(!r.ok)throw new Error('Manifest load failed');return r.json()}).then(data=>{files=data;document.querySelector('#total').textContent=files.length;[...new Set(files.map(x=>x.group))].forEach(g=>{let o=document.createElement('option');o.value=g;o.textContent=g;group.append(o)});draw()}).catch(()=>{document.querySelector('#total').textContent='!';empty.style.display='block';empty.textContent='فهرست فایل‌ها بارگذاری نشد؛ assets/manifest.json را بررسی کنید.'});
-function draw(){let list=files.filter(x=>x.file.toLowerCase().includes(search.value.toLowerCase().trim())&&(group.value==='all'||x.group===group.value));if(sort.value==='az')list.sort((a,b)=>a.file.localeCompare(b.file));if(sort.value==='za')list.sort((a,b)=>b.file.localeCompare(a.file));grid.innerHTML='';
-list.forEach(item=>{const card=document.createElement('article');card.className='card';const preview=document.createElement('div');preview.className='preview';const tag=document.createElement('span');tag.className='tag';tag.textContent=item.group;const name=document.createElement('div');name.className='name';name.textContent=item.file;const actions=document.createElement('div');actions.className='actions';const dl=document.createElement('a');dl.className='btn';dl.textContent='دانلود';dl.href='assets/'+item.file;dl.download=item.file;const view=document.createElement('button');view.className='btn';view.textContent='JSON';view.onclick=()=>window.open('assets/'+item.file,'_blank');const copy=document.createElement('button');copy.className='btn copy';copy.textContent='کپی مسیر';copy.onclick=()=>navigator.clipboard.writeText('assets/'+item.file).then(()=>{copy.textContent='کپی شد ✓';setTimeout(()=>copy.textContent='کپی مسیر',1200)});actions.append(dl,view,copy);card.append(preview,tag,name,actions);grid.append(card);lottie.loadAnimation({container:preview,renderer:'svg',loop:true,autoplay:true,path:'assets/'+item.file})});empty.style.display=list.length?'none':'block'}
-search.addEventListener('input',draw);group.addEventListener('change',draw);sort.addEventListener('change',draw);
+function filtered(){let list=files.filter(x=>x.file.toLowerCase().includes(search.value.toLowerCase().trim())&&(group.value==='all'||x.group===group.value));if(sort.value==='az')list.sort((a,b)=>a.file.localeCompare(b.file));if(sort.value==='za')list.sort((a,b)=>b.file.localeCompare(a.file));return list}
+function makePagination(nav,totalPages,count){nav.innerHTML='';if(totalPages<=1)return;const prev=document.createElement('button');prev.textContent='صفحه قبل';prev.disabled=page===1;prev.onclick=()=>{page--;draw();document.querySelector('#grid').scrollIntoView({behavior:'smooth',block:'start'})};const info=document.createElement('span');info.className='page-info';info.textContent='صفحه '+page+' از '+totalPages+' · '+count+' نتیجه';const next=document.createElement('button');next.textContent='صفحه بعد';next.disabled=page===totalPages;next.onclick=()=>{page++;draw();document.querySelector('#grid').scrollIntoView({behavior:'smooth',block:'start'})};nav.append(prev,info,next)}
+function draw(){let list=filtered();const pages=Math.max(1,Math.ceil(list.length/PAGE_SIZE));if(page>pages)page=pages;const slice=list.slice((page-1)*PAGE_SIZE,page*PAGE_SIZE);grid.innerHTML='';slice.forEach(item=>{const card=document.createElement('article');card.className='card';const preview=document.createElement('div');preview.className='preview';const tag=document.createElement('span');tag.className='tag';tag.textContent=item.group;const name=document.createElement('div');name.className='name';name.textContent=item.file;const actions=document.createElement('div');actions.className='actions';const dl=document.createElement('a');dl.className='btn';dl.textContent='دانلود';dl.href='assets/'+item.file;dl.download=item.file;const view=document.createElement('button');view.className='btn';view.textContent='JSON';view.onclick=()=>window.open('assets/'+item.file,'_blank');const copy=document.createElement('button');copy.className='btn copy';copy.textContent='کپی مسیر';copy.onclick=()=>navigator.clipboard.writeText('assets/'+item.file).then(()=>{copy.textContent='کپی شد ✓';setTimeout(()=>copy.textContent='کپی مسیر',1200)});actions.append(dl,view,copy);card.append(preview,tag,name,actions);grid.append(card);lottie.loadAnimation({container:preview,renderer:'svg',loop:true,autoplay:true,path:'assets/'+item.file})});document.querySelector('#shown').textContent=slice.length;empty.style.display=list.length?'none':'block';makePagination(topNav,pages,list.length);makePagination(bottomNav,pages,list.length)}
+search.addEventListener('input',()=>{page=1;draw()});group.addEventListener('change',()=>{page=1;draw()});sort.addEventListener('change',()=>{page=1;draw()});
 </script></body></html>
