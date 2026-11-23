@@ -14,47 +14,101 @@ details{margin-top:26px;border:1px solid var(--line);background:#121a2d;border-r
 </style></head><body><main class="wrap"><header><div><h1>کتابخانه ایموجی متحرک تلگرام</h1><p>جستجو، پیش‌نمایش، دسته‌بندی و دانلود فایل‌های Lottie</p></div><div class="pill"><b id="total">…</b> ایموجی · <b id="shown">0</b> نمایش</div></header>
 <div class="controls"><input id="search" placeholder="🔎 جستجو بر اساس نام فایل…"><select id="group"><option value="all">همه مجموعه‌ها</option></select><select id="sort"><option value="default">ترتیب پیش‌فرض</option><option value="az">نام فایل (الف تا ی)</option><option value="za">نام فایل (ی تا الف)</option></select></div>
 <nav class="pagination" id="paginationTop"></nav><section id="grid" class="grid"></section><div id="empty" class="empty">نتیجه‌ای پیدا نشد.</div><nav class="pagination" id="paginationBottom"></nav>
-<details><summary>راهنمای کامل استفاده از ایموجی‌ها و کد Python</summary>
-<h3>۱) دانلود فایل</h3><p>روی «دانلود» هر کارت کلیک کن تا فایل JSON ذخیره شود. «JSON» فایل را در تب جدید باز می‌کند و «کپی مسیر» مسیر نسبی فایل را در کلیپ‌بورد کپی می‌کند. از جستجو، فیلتر مجموعه و مرتب‌سازی استفاده کن. در هر صفحه حداکثر ۲۰ ایموجی ساخته و انیمیشن می‌شود تا از لگ و مصرف زیاد RAM جلوگیری شود.</p>
-<h3>۲) استفاده در وب با Lottie</h3><p>کتابخانه Lottie Web را اضافه کن، یک عنصر ظرف بساز و مسیر JSON را به آن بده:</p><pre><code>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"&gt;&lt;/script&gt;
-&lt;div id="emoji" style="width:100px;height:100px"&gt;&lt;/div&gt;
+<details><summary>راهنمای کامل استفاده در سایت، سرور، هاست اشتراکی و Python</summary>
+<h3>۱) دانلود و انتخاب فایل</h3><p>از جستجو، فیلتر مجموعه و مرتب‌سازی استفاده کن. در هر صفحه فقط ۲۰ ایموجی رندر می‌شوند تا از لگ و مصرف RAM جلوگیری شود. دکمه «دانلود» فایل JSON را ذخیره می‌کند، «JSON» آن را در تب جدید باز می‌کند و «کپی مسیر» مسیر فایل را کپی می‌کند.</p>
+<h3>۲) استفاده سریع در هر وب‌سایت (بدون نصب روی سرور)</h3><p>این روش برای HTML ساده، PHP، وردپرس، Django، Laravel، React و تقریباً هر سایت دیگری مناسب است. فایل JSON از GitHub Pages دریافت می‌شود؛ فقط اینترنت بازدیدکننده باید به آن دسترسی داشته باشد.</p><pre><code>&lt;!-- کتابخانه Lottie --&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- محل نمایش انیمیشن --&gt;
+&lt;div id="my-emoji" style="width:100px;height:100px"&gt;&lt;/div&gt;
+
 &lt;script&gt;
 lottie.loadAnimation({
-  container: document.getElementById('emoji'),
+  container: document.getElementById('my-emoji'),
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: './assets/Proxy_PJ2_140.json'
+  path: 'https://sepahna.github.io/emojis/assets/Proxy_PJ2_140.json'
 });
 &lt;/script&gt;</code></pre>
-<h3>۳) خواندن و ذخیره JSON با Python</h3><p>این نمونه یک فایل JSON را از کتابخانه دانلود می‌کند و به‌عنوان فایل محلی ذخیره می‌کند. Python 3 و پکیج requests لازم است (نصب: <code>python -m pip install requests</code>):</p><pre><code>import requests
+<h3>۳) استفاده روی هاست اشتراکی (cPanel / DirectAdmin)</h3><p>اگر می‌خواهی فایل‌ها از هاست خودت بارگذاری شوند، این کار نیاز به Python یا Node ندارد:</p><ol><li>در File Manager هاست، وارد <code>public_html</code> شو.</li><li>یک پوشه به نام <code>emojis</code> بساز.</li><li>JSONهای موردنیاز را دانلود و در <code>public_html/emojis/</code> آپلود کن.</li><li>در صفحه HTML یا PHP سایت، Lottie را از CDN اضافه کن و مسیر فایل را مطابق نمونه زیر قرار بده.</li></ol><pre><code>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"&gt;&lt;/script&gt;
+&lt;div id="emoji-host" style="width:120px;height:120px"&gt;&lt;/div&gt;
+&lt;script&gt;
+lottie.loadAnimation({
+  container: document.getElementById('emoji-host'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: '/emojis/Proxy_PJ2_140.json'
+});
+&lt;/script&gt;</code></pre><p>در این مثال، آدرس فایل باید در مرورگر باز شود: <code>https://YOUR-DOMAIN.com/emojis/Proxy_PJ2_140.json</code>. اگر فایل در پوشه دیگری است، مسیر <code>path</code> را مطابق محل واقعی تغییر بده. فایل JSON باید قابل دسترسی عمومی باشد.</p>
+<h3>۴) نمونه کامل فایل HTML برای هاست اشتراکی</h3><p>یک فایل به نام <code>emoji-demo.html</code> در <code>public_html</code> بساز و این کد را داخل آن قرار بده. بعد آدرس آن را در مرورگر باز کن:</p><pre><code>&lt;!doctype html&gt;
+&lt;html lang="fa" dir="rtl"&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="viewport" content="width=device-width,initial-scale=1"&gt;
+  &lt;title&gt;نمونه ایموجی متحرک&lt;/title&gt;
+  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"&gt;&lt;/script&gt;
+  &lt;style&gt;body{font-family:Tahoma;text-align:center;padding:30px}.emoji{width:120px;height:120px;margin:auto}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;ایموجی متحرک&lt;/h1&gt;
+  &lt;div id="emoji" class="emoji"&gt;&lt;/div&gt;
+  &lt;script&gt;
+    lottie.loadAnimation({
+      container: document.getElementById('emoji'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: '/emojis/Proxy_PJ2_140.json'
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h3>۵) استفاده در سرور لینوکس (Nginx)</h3><p>فایل JSON را در مسیر وب پروژه قرار بده؛ برای نمونه اگر ریشه سایت <code>/var/www/example.com/public</code> است، فایل را در <code>/var/www/example.com/public/emojis/</code> قرار بده. Nginx فایل JSON را مانند فایل استاتیک سرو می‌کند؛ نیازی به اجرای Python برای نمایش انیمیشن نیست. سپس در کد صفحه از مسیر زیر استفاده کن:</p><pre><code>path: '/emojis/Proxy_PJ2_140.json'</code></pre><p>اگر فایل‌ها خارج از Document Root هستند، باید در تنظیمات Nginx یک مسیر استاتیک تعریف شود و پس از تغییر تنظیمات، Nginx reload شود. فایل‌ها را در مسیرهای خصوصی یا پوشه‌ای که دسترسی HTTP ندارد قرار نده.</p>
+<h3>۶) استفاده در React</h3><p>ابتدا نصب کن: <code>npm install lottie-web</code> و سپس در کامپوننت:</p><pre><code>import { useEffect, useRef } from 'react';
+import lottie from 'lottie-web';
+
+export default function AnimatedEmoji() {
+  const ref = useRef(null);
+
+  useEffect(() =&gt; {
+    const animation = lottie.loadAnimation({
+      container: ref.current,
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'https://sepahna.github.io/emojis/assets/Proxy_PJ2_140.json'
+    });
+    return () =&gt; animation.destroy();
+  }, []);
+
+  return &lt;div ref={ref} style={{ width: 100, height: 100 }} /&gt;;
+}</code></pre>
+<h3>۷) دانلود JSON با Python</h3><p>Python 3 و requests لازم است: <code>python -m pip install requests</code>.</p><pre><code>import requests
 import json
 
 url = "https://sepahna.github.io/emojis/assets/Proxy_PJ2_140.json"
-
 response = requests.get(url, timeout=30)
 response.raise_for_status()
-
-animation = response.json()  # تبدیل JSON به dict پایتون
+animation = response.json()
 
 with open("emoji.json", "w", encoding="utf-8") as file:
     json.dump(animation, file, ensure_ascii=False, indent=2)
 
-print("دانلود و ذخیره شد:", animation.get("nm", "Lottie animation"))</code></pre>
-<h3>۴) تبدیل فایل TGS تلگرام به JSON با Python</h3><p>فایل TGS معمولاً JSON فشرده‌شده با GZIP است. این کد فایل TGS را باز کرده و JSON قابل استفاده را ذخیره می‌کند:</p><pre><code>import gzip
+print("Saved:", animation.get("nm", "Lottie animation"))</code></pre>
+<h3>۸) تبدیل TGS تلگرام به JSON با Python</h3><p>فایل TGS معمولاً JSON فشرده با GZIP است. این کد آن را استخراج می‌کند:</p><pre><code>import gzip
 import json
 
 with open("sticker.tgs", "rb") as file:
-    compressed = file.read()
+    data = gzip.decompress(file.read())
 
-data = gzip.decompress(compressed)
 animation = json.loads(data.decode("utf-8"))
-
 with open("sticker.json", "w", encoding="utf-8") as file:
     json.dump(animation, file, ensure_ascii=False, indent=2)
 
-print("TGS به JSON تبدیل شد.")</code></pre>
-<h3>۵) دانلود گروهی چند ایموجی با Python</h3><p>اسم فایل‌ها را در لیست بگذار؛ اسکریپت آن‌ها را در پوشه <code>emojis</code> دانلود می‌کند:</p><pre><code>from pathlib import Path
+print("TGS converted to JSON")</code></pre>
+<h3>۹) دانلود گروهی چند ایموجی با Python</h3><pre><code>from pathlib import Path
 import requests
 
 FILES = [
@@ -72,7 +126,7 @@ for name in FILES:
     response.raise_for_status()
     (out / name).write_bytes(response.content)
     print("Downloaded:", name)</code></pre>
-<p>نکته: نام فایل باید دقیقاً مطابق نام موجود در کتابخانه باشد. فایل‌های JSON این سایت Lottie هستند؛ برای نمایش در وب از Lottie Web استفاده کن.</p>
+<p><b>نکته‌های مهم:</b> فایل‌های JSON این کتابخانه Lottie هستند؛ برای نمایش در مرورگر از Lottie Web استفاده کن. مسیر فایل باید دقیق و با حروف بزرگ/کوچک درست باشد. برای استفاده روی هاست خودت، JSONها را آپلود کن و مسیر محلی را به <code>path</code> بده؛ برای استفاده مستقیم از کتابخانه، URL کامل GitHub Pages را قرار بده. فایل‌ها از طریق HTTP/HTTPS قابل دسترسی باشند و در مرورگر با خطای 404 مواجه نشوند.</p>
 </details><footer>Telegram Emoji Library · Lottie JSON · GitHub Pages</footer></main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script><script>
 const PAGE_SIZE=20;
