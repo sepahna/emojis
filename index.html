@@ -31,6 +31,27 @@ lottie.loadAnimation({
   path: 'https://sepahna.github.io/emojis/assets/Proxy_PJ2_140.json'
 });
 &lt;/script&gt;</code></pre>
+<h3>۳) تست آنلاین و تنظیم اندازه ایموجی</h3>
+<p>اندازه را با کشیدن نوار تغییر بده؛ پیش‌نمایش زنده به‌روزرسانی می‌شود و کد آماده نیز بر اساس اندازه انتخابی ساخته می‌شود. کد را کپی و در پروژه خودت استفاده کن.</p>
+<div style="border:1px solid #2b405d;border-radius:14px;background:#0b1424;padding:16px;margin:12px 0">
+  <div style="display:flex;align-items:center;justify-content:center;min-height:180px;background:#17243b;border-radius:12px;margin-bottom:14px"><div id="size-demo" style="width:100px;height:100px"></div></div>
+  <label for="emoji-size" style="display:block;margin-bottom:8px">اندازه: <b id="emoji-size-label">100 × 100 پیکسل</b></label>
+  <input id="emoji-size" type="range" min="24" max="300" value="100" step="4" style="accent-color:#60a5fa">
+  <div style="display:flex;gap:8px;flex-wrap:wrap;margin:12px 0"><button type="button" class="btn" id="size-copy">کپی کد</button><button type="button" class="btn" id="size-reset">بازنشانی به ۱۰۰px</button></div>
+  <pre id="size-code" style="direction:ltr;text-align:left"></pre>
+</div>
+<h4>کد پایه</h4><pre><code>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"&gt;&lt;/script&gt;
+&lt;div id="emoji" style="width:100px;height:100px"&gt;&lt;/div&gt;
+&lt;script&gt;
+lottie.loadAnimation({
+  container: document.getElementById('emoji'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'https://sepahna.github.io/emojis/assets/Proxy_PJ2_140.json'
+});
+&lt;/script&gt;</code></pre>
+<p>برای تغییر اندازه فقط مقادیر <code>width</code> و <code>height</code> را تغییر بده؛ مثلاً ۴۸px کوچک، ۱۰۰px متوسط یا ۲۵۶px بزرگ. اندازه در این ابزار از ۲۴ تا ۳۰۰ پیکسل قابل تنظیم است.</p>
 <h3>۳) استفاده روی هاست اشتراکی (cPanel / DirectAdmin)</h3><p>اگر می‌خواهی فایل‌ها از هاست خودت بارگذاری شوند، این کار نیاز به Python یا Node ندارد:</p><ol><li>در File Manager هاست، وارد <code>public_html</code> شو.</li><li>یک پوشه به نام <code>emojis</code> بساز.</li><li>JSONهای موردنیاز را دانلود و در <code>public_html/emojis/</code> آپلود کن.</li><li>در صفحه HTML یا PHP سایت، Lottie را از CDN اضافه کن و مسیر فایل را مطابق نمونه زیر قرار بده.</li></ol><pre><code>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"&gt;&lt;/script&gt;
 &lt;div id="emoji-host" style="width:120px;height:120px"&gt;&lt;/div&gt;
 &lt;script&gt;
@@ -135,5 +156,9 @@ fetch('assets/manifest.json').then(r=>{if(!r.ok)throw new Error('Manifest load f
 function filtered(){let list=files.filter(x=>x.file.toLowerCase().includes(search.value.toLowerCase().trim())&&(group.value==='all'||x.group===group.value));if(sort.value==='az')list.sort((a,b)=>a.file.localeCompare(b.file));if(sort.value==='za')list.sort((a,b)=>b.file.localeCompare(a.file));return list}
 function makePagination(nav,totalPages,count){nav.innerHTML='';if(totalPages<=1)return;const prev=document.createElement('button');prev.textContent='صفحه قبل';prev.disabled=page===1;prev.onclick=()=>{page--;draw();document.querySelector('#grid').scrollIntoView({behavior:'smooth',block:'start'})};const info=document.createElement('span');info.className='page-info';info.textContent='صفحه '+page+' از '+totalPages+' · '+count+' نتیجه';const next=document.createElement('button');next.textContent='صفحه بعد';next.disabled=page===totalPages;next.onclick=()=>{page++;draw();document.querySelector('#grid').scrollIntoView({behavior:'smooth',block:'start'})};nav.append(prev,info,next)}
 function draw(){let list=filtered();const pages=Math.max(1,Math.ceil(list.length/PAGE_SIZE));if(page>pages)page=pages;const slice=list.slice((page-1)*PAGE_SIZE,page*PAGE_SIZE);grid.innerHTML='';slice.forEach(item=>{const card=document.createElement('article');card.className='card';const preview=document.createElement('div');preview.className='preview';const tag=document.createElement('span');tag.className='tag';tag.textContent=item.group;const name=document.createElement('div');name.className='name';name.textContent=item.file;const actions=document.createElement('div');actions.className='actions';const dl=document.createElement('a');dl.className='btn';dl.textContent='دانلود';dl.href='assets/'+item.file;dl.download=item.file;const view=document.createElement('button');view.className='btn';view.textContent='JSON';view.onclick=()=>window.open('assets/'+item.file,'_blank');const copy=document.createElement('button');copy.className='btn copy';copy.textContent='کپی مسیر';copy.onclick=()=>navigator.clipboard.writeText('assets/'+item.file).then(()=>{copy.textContent='کپی شد ✓';setTimeout(()=>copy.textContent='کپی مسیر',1200)});actions.append(dl,view,copy);card.append(preview,tag,name,actions);grid.append(card);lottie.loadAnimation({container:preview,renderer:'svg',loop:true,autoplay:true,path:'assets/'+item.file})});document.querySelector('#shown').textContent=slice.length;empty.style.display=list.length?'none':'block';makePagination(topNav,pages,list.length);makePagination(bottomNav,pages,list.length)}
+const sizeSlider=document.querySelector('#emoji-size'),sizeLabel=document.querySelector('#emoji-size-label'),sizeDemo=document.querySelector('#size-demo'),sizeCode=document.querySelector('#size-code'),sizeCopy=document.querySelector('#size-copy'),sizeReset=document.querySelector('#size-reset');
+lottie.loadAnimation({container:sizeDemo,renderer:'svg',loop:true,autoplay:true,path:'https://sepahna.github.io/emojis/assets/Proxy_PJ2_140.json'});
+function updateSizeDemo(){const n=sizeSlider.value;sizeDemo.style.width=n+'px';sizeDemo.style.height=n+'px';sizeLabel.textContent=n+' × '+n+' پیکسل';sizeCode.textContent='<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"><\\/script>\\n<div id="emoji" style="width:'+n+'px;height:'+n+'px"></div>\\n<script>\\nlottie.loadAnimation({\\n  container: document.getElementById("emoji"),\\n  renderer: "svg",\\n  loop: true,\\n  autoplay: true,\\n  path: "https://sepahna.github.io/emojis/assets/Proxy_PJ2_140.json"\\n});\\n<\\/script>'}
+sizeSlider.addEventListener('input',updateSizeDemo);sizeReset.addEventListener('click',()=>{sizeSlider.value=100;updateSizeDemo()});sizeCopy.addEventListener('click',()=>navigator.clipboard.writeText(sizeCode.textContent).then(()=>{sizeCopy.textContent='کپی شد ✓';setTimeout(()=>sizeCopy.textContent='کپی کد',1200)}));updateSizeDemo();
 search.addEventListener('input',()=>{page=1;draw()});group.addEventListener('change',()=>{page=1;draw()});sort.addEventListener('change',()=>{page=1;draw()});
 </script></body></html>
