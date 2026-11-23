@@ -1,31 +1,31 @@
 # Telegram Animated Emoji Library
 
-A browser-based gallery for Lottie JSON animations extracted from Telegram custom emoji packs.
+A searchable browser gallery for 17 Telegram Lottie JSON animations.
 
-## Online demo
+## GitHub Pages
 
-Enable GitHub Pages in **Settings → Pages** and choose `main` / root.
+Open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save. The gallery URL will be:
 
-## Files
+https://sepahna.github.io/emojis/
 
-See `assets/` for the source Lottie JSON animations.
-
-## Usage
+## HTML usage
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
-<div id="emoji" style="width:96px;height:96px"></div>
+<div id="emoji" style="width:64px;height:64px"></div>
 <script>
 lottie.loadAnimation({
   container: document.getElementById('emoji'),
-  renderer: 'svg', loop: true, autoplay: true,
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
   path: './assets/Proxy_PJ2_140.json'
 });
 </script>
 ```
 
-Use the included `index.html` gallery to preview, search, copy file paths and snippets.
+The gallery includes search, animation previews, direct JSON links and copyable asset paths.
 
-## Attribution and rights
+## Rights
 
-The animation files are supplied by the repository owner. Ensure you have permission to redistribute any third-party logos or artwork.
+Check permission before redistributing third-party logos, brand marks or artwork.
