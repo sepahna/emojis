@@ -1,0 +1,1670 @@
+[
+  {
+    "file": "Proxy_PJ7_067.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_186.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ2_140.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ2_141.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ2_178.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_003.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_008.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_011.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_012.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_014.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_032.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_039.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_040.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_054.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_055.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_056.json",
+    "group": "Original"
+  },
+  {
+    "file": "Proxy_PJ7_059.json",
+    "group": "Original"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_200.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_001.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_002.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_003.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_004.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_005.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_006.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_007.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_008.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_009.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_010.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_011.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_012.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_013.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_014.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_015.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_016.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_017.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_018.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_019.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_020.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_021.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_022.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_023.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_024.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_025.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_026.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_027.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_028.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_029.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_030.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_031.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_032.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_033.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_034.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_035.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_036.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_037.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_038.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_039.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_040.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_041.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_042.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_043.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_044.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_045.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_046.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_047.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_048.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_049.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_050.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_051.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_052.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_053.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_054.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_055.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_056.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_057.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_058.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_059.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_060.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_061.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_062.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_063.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_064.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_065.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_066.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_067.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_068.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_069.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_070.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_071.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_072.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_073.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_074.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_075.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_076.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_077.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_078.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_079.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_080.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_081.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_082.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_083.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_084.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_085.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_086.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_087.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_088.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_089.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_090.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_091.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_092.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_093.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_094.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_095.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_096.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_097.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_098.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_099.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_100.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_101.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_102.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_103.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_104.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_105.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_106.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_107.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_108.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_109.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_110.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_111.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_112.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_113.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_114.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_115.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_116.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_117.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_118.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_119.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_120.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_121.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_122.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_123.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_124.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_125.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_126.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_127.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_128.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_129.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_130.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_131.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_132.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_133.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_134.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_135.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_136.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_137.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_138.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_139.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_140.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_141.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_142.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_143.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_144.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_145.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_146.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_147.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_148.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_149.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_150.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_151.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_152.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_153.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_154.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_155.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_156.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_157.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_158.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_159.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_160.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_161.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_162.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_163.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_164.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_165.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_166.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_167.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_168.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_169.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_170.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_171.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_172.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_173.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_174.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_175.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_176.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_177.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_178.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_179.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_180.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_181.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_182.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_183.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_184.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_185.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_186.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_187.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_188.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_189.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_190.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_191.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_192.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_193.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_194.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_195.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_196.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_197.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_198.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "ApplicationEmoji_Mehran_199.json",
+    "group": "ApplicationEmoji_Mehran"
+  },
+  {
+    "file": "Emoji_fan37_200.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_001.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_002.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_003.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_004.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_005.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_006.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_007.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_008.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_009.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_010.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_011.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_012.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_013.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_014.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_015.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_016.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_017.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_018.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_019.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_020.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_021.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_022.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_023.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_024.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_025.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_026.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_027.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_028.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_029.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_030.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_031.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_032.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_033.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_034.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_035.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_036.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_037.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_038.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_039.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_040.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_041.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_042.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_043.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_044.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_045.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_046.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_047.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_048.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_049.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_050.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_051.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_052.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_053.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_054.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_055.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_056.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_057.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_058.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_059.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_060.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_061.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_062.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_063.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_064.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_065.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_066.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_067.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_068.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_069.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_070.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_071.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_072.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_073.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_074.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_075.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_076.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_077.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_078.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_079.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_080.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_081.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_082.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_083.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_084.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_085.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_086.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_087.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_088.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_089.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_090.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_091.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_092.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_093.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_094.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_095.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_096.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_097.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_098.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_099.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_100.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_101.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_102.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_103.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_104.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_105.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_106.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_107.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_108.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_109.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_110.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_111.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_112.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_113.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_114.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_115.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_116.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_117.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_118.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_119.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_120.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_121.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_122.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_123.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_124.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_125.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_126.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_127.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_128.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_129.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_130.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_131.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_132.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_133.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_134.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_135.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_136.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_137.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_138.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_139.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_140.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_141.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_142.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_143.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_144.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_145.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_146.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_147.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_148.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_149.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_150.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_151.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_152.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_153.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_154.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_155.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_156.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_157.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_158.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_159.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_160.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_161.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_162.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_163.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_164.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_165.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_166.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_167.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_168.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_169.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_170.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_171.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_172.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_173.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_174.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_175.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_176.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_177.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_178.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_179.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_180.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_181.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_182.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_183.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_184.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_185.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_186.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_187.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_188.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_189.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_190.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_191.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_192.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_193.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_194.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_195.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_196.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_197.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_198.json",
+    "group": "Emoji_fan37"
+  },
+  {
+    "file": "Emoji_fan37_199.json",
+    "group": "Emoji_fan37"
+  }
+]
