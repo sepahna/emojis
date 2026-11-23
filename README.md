@@ -20,3 +20,6 @@ lottie.loadAnimation({container:document.getElementById('emoji'),renderer:'svg',
 ```
 
 Use the gallery to copy the asset path for a specific emoji.
+
+
+<!-- Pages deployment trigger -->
